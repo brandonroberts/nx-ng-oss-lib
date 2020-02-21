@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ossorg/ng-lib": ["libs/ng-lib/src/index.ts"],
+      "@ossorg/ng-plugin": ["libs/ng-plugin/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

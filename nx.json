@@ -10,5 +10,16 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "ng-lib": {
+      "tags": []
+    },
+    "ng-plugin": {
+      "tags": []
+    },
+    "ng-plugin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ng-plugin"]
+    }
+  }
 }

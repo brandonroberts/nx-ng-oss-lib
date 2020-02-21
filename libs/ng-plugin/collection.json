@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "name": "ng-plugin",
+  "version": "0.0.1",
+  "schematics": {
+    "ngPlugin": {
+      "factory": "./src/schematics/ng-plugin/schematic",
+      "schema": "./src/schematics/ng-plugin/schema.json",
+      "description": "ng-plugin schematic"
+    }
+  }
+}

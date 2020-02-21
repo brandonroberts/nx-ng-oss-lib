@@ -1,0 +1,10 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "build": {
+      "implementation": "./src/builders/ng-plugin/builder",
+      "schema": "./src/builders/ng-plugin/schema.json",
+      "description": "ng-plugin builder"
+    }
+  }
+}
