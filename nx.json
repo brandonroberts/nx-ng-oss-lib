@@ -15,7 +15,10 @@
       "tags": []
     },
     "ng-plugin": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": [
+        "ng-lib"
+      ]
     },
     "ng-plugin-e2e": {
       "tags": [],

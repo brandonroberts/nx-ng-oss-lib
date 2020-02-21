@@ -73,7 +73,6 @@
             "packageJson": "libs/ng-plugin/package.json",
             "main": "libs/ng-plugin/src/index.ts",
             "assets": [
-              "libs/ng-plugin/*.md",
               {
                 "input": "./libs/ng-plugin/src",
                 "glob": "**/*.!(ts)",
@@ -87,6 +86,11 @@
               {
                 "input": "./libs/ng-plugin",
                 "glob": "builders.json",
+                "output": "."
+              },
+              {
+                "input": "./dist/libs/ng-lib",
+                "glob": "**/*",
                 "output": "."
               }
             ]
